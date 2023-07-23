@@ -4,3 +4,27 @@
     border: 15px solid #0682D1;
     border-radius: 100%;
 }
+.circle-yellow {
+    height: 100px;
+    width: 100px;
+    border: 15px solid #F6C403;
+    border-radius: 100%;
+}
+.circle-black {
+    height: 100px;
+    width: 100px;
+    border: 15px solid #030303;
+    border-radius: 100%;
+}
+.circle-green {
+    height: 100px;
+    width: 100px;
+    border: 15px solid #0AA139;
+    border-radius: 100%;
+}
+.circle-red {
+    height: 100px;
+    width: 100px;
+    border: 15px solid #E90028;
+    border-radius: 100%;
+}
