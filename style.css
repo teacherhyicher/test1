@@ -1,0 +1,60 @@
+.olimp-circles {
+    position: relative;
+    height: 200px;
+    padding-top: 15px; 
+}
+
+.circle-blue {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #0682D1;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: 8%;
+    
+}
+.circle-yellow {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #F6C403;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 71px;
+    left: 20%;
+}
+.circle-black {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #030303;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.circle-green {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #0AA139;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 71px;              
+    left: 46%;
+}
+.circle-red {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #E90028;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: 58%;
+}
+.card{
+    margin: 50px;
+    width: 300px !important;
+}
+
