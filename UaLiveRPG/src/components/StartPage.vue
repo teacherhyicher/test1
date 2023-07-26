@@ -2,7 +2,11 @@
 <template>
   <div class="greetings">
       <h1 class="welcome">Вас вітає UaLiveRPG</h1>
-      <button class="btn btn-success start-button">Увійти</button>
+      <button class="btn btn-success start-button">
+        <router-link :to="{name:'character-creating'}">
+            Далі
+        </router-link>
+      </button>
   </div>
 </template>
 

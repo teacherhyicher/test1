@@ -1,10 +1,10 @@
 <script setup>
-  import StartPage from './components/StartPage.vue'
+
 </script>
 
 <template>
   <div id="app">
-    <StartPage/>
+    <router-view></router-view>
   </div>
 </template>
 
