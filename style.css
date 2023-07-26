@@ -12,7 +12,7 @@
     display: block;
     position: absolute;
     left: 8%;
-    
+    z-index: 2;
 }
 .circle-yellow {
     height: 100px;
@@ -23,6 +23,7 @@
     position: absolute;
     top: 71px;
     left: 20%;
+    z-index: 1;
 }
 .circle-black {
     height: 100px;
@@ -33,6 +34,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
+    z-index: 3;
 }
 .circle-green {
     height: 100px;
@@ -43,6 +45,7 @@
     position: absolute;
     top: 71px;              
     left: 46%;
+    z-index: 1;
 }
 .circle-red {
     height: 100px;
@@ -52,6 +55,7 @@
     display: block;
     position: absolute;
     left: 58%;
+    z-index: 2;
 }
 .card{
     margin: 50px;
