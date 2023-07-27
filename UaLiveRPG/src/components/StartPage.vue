@@ -2,7 +2,7 @@
 <template>
   <div class="greetings">
       <h1 class="welcome">Вас вітає UaLiveRPG</h1>
-      <button class="btn btn-success start-button">
+      <button class="btn btn-success start-button mt-3">
         <router-link :to="{name:'character-creating'}">
             Далі
         </router-link>
@@ -11,6 +11,9 @@
 </template>
 
 <style scoped>
+input{
+  width: 100%;
+}
 .greetings{
   display: flex;
   flex-direction: column;
@@ -20,9 +23,6 @@
 }
 .welcome{
   text-align: center;
-}
-.start-button{
-  margin-top: 15px;
 }
 
 </style>
