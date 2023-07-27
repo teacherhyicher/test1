@@ -69,17 +69,17 @@ export default {
 
   computed: {
     isSmallGrowth() {
-      if (this.growth <= 179 ) {
+      if (this.growth <= 175 && this.weight < 90  ) {
         return true;
       }
     },
     isHighGrowth() {
-      if (this.growth > 179 && this.weight < 90 ) {
+      if (this.growth > 175 && this.weight < 90 ) {
         return true;
       }
     },
     isBig() {
-      if (this.growth > 170 && this.weight >= 90) {
+      if ( this.weight >= 90) {
         return true;
       }
     }
