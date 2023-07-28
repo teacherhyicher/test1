@@ -11,9 +11,7 @@
 </template>
 
 <style scoped>
-input{
-  width: 100%;
-}
+
 .greetings{
   display: flex;
   flex-direction: column;
